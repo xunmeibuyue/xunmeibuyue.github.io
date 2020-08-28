@@ -1,0 +1,28 @@
+{
+    "status": 0,
+    "msg": "",
+    "data": {
+        "series": [{
+            "name": "温度",
+            "data": [15, 28, 25, 22, 24],
+            "type": "bar",
+            "yAxisIndex": 0
+        }, {
+            "name": "湿度",
+            "data": [70, 61, 52, 51, 62],
+            "type": "bar",
+            "yAxisIndex": 0
+        }, {
+            "name": "气压",
+            "data": [10000, 98503, 98555, 10000, 98500],
+            "type": "line",
+            "yAxisIndex": 1
+        }, {
+            "name": "光照",
+            "data": [1541, 1541, 2000, 2000, 2000],
+            "type": "line",
+            "yAxisIndex": 1
+        }],
+        "categories": ["8:00", "10:00", "12:00", "14:00", "16:00"]
+    }
+}
